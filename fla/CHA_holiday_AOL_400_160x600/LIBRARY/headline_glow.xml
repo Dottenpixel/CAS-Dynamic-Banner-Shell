@@ -1,0 +1,199 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="headline_glow" itemID="4cdc8a80-00000357" sourceLibraryItemHRef="Symbol 1" lastModified="1289953135" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="headline_glow">
+      <layers>
+        <DOMLayer name="AS" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="98">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" c="-0.426803588867188" d="0.73956298828125" tx="-35.9" ty="10.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143.05" y="-81.1"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                  <color>
+                    <Color brightness="-0.26"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" d="1.1455078125" tx="-1.25" ty="43.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143" y="-81.05"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" c="0.372909545898438" d="0.73956298828125" tx="29.05" ty="10.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143.1" y="-81.1"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                  <color>
+                    <Color brightness="0.35"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" d="1.1455078125" tx="-1.25" ty="43.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143" y="-81.05"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" c="-0.13677978515625" d="1.01994323730469" tx="-12.4" ty="33.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="142.85" y="-81.2"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                  <color>
+                    <Color brightness="-0.14"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" d="1.1455078125" tx="-1.25" ty="43.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143" y="-81.05"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" c="0.1148681640625" d="1.01994323730469" tx="8.05" ty="33.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="142.3" y="-81.2"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" d="1.1455078125" tx="-1.25" ty="43.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143" y="-81.05"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" c="-0.0804290771484375" d="1.10343933105469" tx="-7.75" ty="40.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="142.95" y="-81.2"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="120.1" centerPoint3DY="117.2">
+                  <matrix>
+                    <Matrix a="1.1455078125" c="-0.039703369140625" d="1.12509155273438" tx="-4.45" ty="41.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="142.9" y="-81.1"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="114.05" centerPoint3DY="113.95">
+                  <matrix>
+                    <Matrix a="1.1455078125" d="1.1455078125" tx="-1.25" ty="43.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="143" y="-81.05"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="0" blurY="0" color="#FFFF00" strength="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

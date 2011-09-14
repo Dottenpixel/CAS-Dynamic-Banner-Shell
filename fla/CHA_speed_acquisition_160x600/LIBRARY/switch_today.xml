@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="switch_today" itemID="4d38d438-0000021d" lastModified="1295915728">
+  <timeline>
+    <DOMTimeline name="switch_today">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMStaticText width="281.95" height="93" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-142.7" ty="50.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>SWITCH&#xD;TODAY &amp;&#xD;ALSO...&#xD;</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1" lineSpacing="-9" size="30" bitmapSize="600" face="Gotham-Black" fillColor="#00A4E3"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

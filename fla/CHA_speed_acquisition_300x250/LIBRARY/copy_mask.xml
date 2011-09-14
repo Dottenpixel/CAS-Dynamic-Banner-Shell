@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="copy_mask" itemID="4d34d63d-00000205" sourceLibraryItemHRef="Symbol 1" lastModified="1295309991">
+  <timeline>
+    <DOMTimeline name="copy_mask">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.00753784179688" d="-1.2548828125" tx="-152.45" ty="125.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="151.3" y="99.65"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!6004 0|6004 3986!6004 3986|49 3986!49 3986|49 0!49 0|6004 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

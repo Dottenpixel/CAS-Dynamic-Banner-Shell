@@ -1,0 +1,156 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bags_all" itemID="4ce30832-00000126" sourceLibraryItemHRef="Symbol 1" lastModified="1289953082" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="bags_all" currentFrame="24">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bag2" color="#0000FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="9" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.666666666666667"/>
+                  <Point x="0.666666666666667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="bag_internet" name="" centerPoint3DX="-36.85" centerPoint3DY="156.7">
+                  <matrix>
+                    <Matrix a="1.01670837402344" b="-0.11566162109375" c="0.41107177734375" d="0.98309326171875" tx="-98.3" ty="97.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.15" y="63.1"/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter/>
+                  </filters>
+                  <color>
+                    <Color brightness="-0.54"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bag_internet" name="" centerPoint3DX="176.85" centerPoint3DY="68.1">
+                  <matrix>
+                    <Matrix a="0.586654663085938" d="0.586654663085938" tx="156.85" ty="31.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.3" y="63.25"/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter blurX="0" blurY="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bag3" color="#0000FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.666666666666667"/>
+                  <Point x="0.666666666666667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="bag_tv" name="" centerPoint3DX="287.55" centerPoint3DY="63.7">
+                  <matrix>
+                    <Matrix a="0.586654663085938" b="-0.080810546875" c="0.169784545898438" d="0.563232421875" tx="250.6" ty="30.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="43.1" y="65.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="-0.54"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bag_tv" name="" centerPoint3DX="109" centerPoint3DY="63.7">
+                  <matrix>
+                    <Matrix a="0.586654663085938" d="0.586654663085938" tx="82.75" ty="25.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="43.45" y="65.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bag4" color="#0000FF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="14" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.666666666666667"/>
+                  <Point x="0.666666666666667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="bag_phone" name="" centerPoint3DX="140.65" centerPoint3DY="45.6">
+                  <matrix>
+                    <Matrix a="0.194580078125" d="0.194580078125" tx="118.15" ty="5.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41.1" y="68.35"/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter blurX="10" blurY="10"/>
+                  </filters>
+                  <color>
+                    <Color brightness="-0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bag_phone" name="" centerPoint3DX="145.3" centerPoint3DY="45.6">
+                  <matrix>
+                    <Matrix a="0.586654663085938" d="0.586654663085938" tx="119.9" ty="5.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41.15" y="67.95"/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter blurX="0" blurY="0"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

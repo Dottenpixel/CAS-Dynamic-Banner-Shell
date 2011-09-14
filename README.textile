@@ -1,0 +1,21 @@
+h1. Personalized Banners
+
+I am calling this project Personalized Banners - not to be confused with "Dynamic Banners" which was the previous round. The package name still says "dynamicbanners", though.
+
+h2. Local Build
+
+Please simply compile net.creativelift.dynamicbanners.DynBannerShell.as. Making this your default application in Eclipse should suffice. Use deploy as your output folder, but you will have to manually move the output swf to the deploy/swf folder after compiling (or after saving if using automatic compile).
+
+h2. Remote Build
+
+This repository is configured to support remote building via Hudson - however, it is not recommended at this point. build.xml is the ant build file the remote server would use to build if used.
+
+h2. Template FLA
+
+The only template built out so far is located in the FLA folder and should be used as a guide for future templates.
+
+h2. Access
+
+The only team members at this point are doug at creativelift dot net and ted at creativelift dot net.
+
+

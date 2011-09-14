@@ -1,0 +1,7 @@
+<content swf="http://data.creativelift.net/cas_dynamic/dyn_banner_subshell_slug_[size].swf" clickURL="http://www.charter.com/dynbanner">
+	<param name="a" value="100"/>
+	<param name="b" value="200"/>
+	<param name="c" value="300"/>
+	<param name="d" value="400"/>
+	<param name="e" value="500"/>
+</content>

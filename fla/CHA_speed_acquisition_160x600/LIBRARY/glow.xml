@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="glow" itemID="4d34c910-00000155" sourceLibraryItemHRef="Symbol 1" lastModified="1295305706">
+  <timeline>
+    <DOMTimeline name="glow">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMStaticText selected="true" width="37.3" height="44" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-65.75" ty="-22"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>M</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="0" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#D0D0D0"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText selected="true" width="35.65" height="44" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-28.65" ty="-22"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>O</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="0" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#D0D0D0"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText selected="true" width="30.7" height="44" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="6.8" ty="-22"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>R</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="0" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#D0D0D0"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText selected="true" width="28.45" height="44" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="37.35" ty="-22"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>E</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="0" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#D0D0D0"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

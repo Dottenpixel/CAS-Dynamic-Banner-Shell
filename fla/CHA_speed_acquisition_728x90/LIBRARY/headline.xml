@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="headline" itemID="4d34d97f-000002b4" lastModified="1295918731">
+  <timeline>
+    <DOMTimeline name="headline">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMStaticText width="468.7" height="44" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-146.7" ty="-78.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>MORE FREE SPEED</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="-5" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="291.5" height="20" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-144.65" ty="-38.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>for our customers</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" letterSpacing="-0.2" lineSpacing="0" size="20" bitmapSize="400" face="Gotham-Bold" fillColor="#559BE3"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,114 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cards/&lt;Clip Group 0&gt;" itemID="4c8ea092-00000109" lastModified="1284415634">
+  <timeline>
+    <DOMTimeline name="&lt;Clip Group 0&gt;">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!7361 -4126|7920 3173!7920 3173[7961 3707 7659 4105!7659 4105[7357 4503 6890 4532!6890 4532|-6135 5343!-6135 5343[-6602 5372 -6961 5016!-6961 5016[-7321 4659 -7362 4125!-7362 4125|-7921 -3174!-7921 -3174[-7961 -3707 -7660 -4105!-7660
+ -4105[-7358 -4503 -6891 -4532!-6891 -4532|6134 -5344!6134 -5344[6601 -5372 6961 -5016!6961 -5016[7320 -4659 7361 -4126"/>
+                    <Edge cubics="!-7921 -3174(;-7975,-3885 -7514,-4494 -6891,-4532q-7921 -3174Q-7961 -3707q-7660 -4105Q-7358 -4503q-6891 -4532);"/>
+                    <Edge cubics="!-6891 -4532(;-6891,-4532 6134,-5344 6134,-5344q-6891 -4532 6134 -5344);"/>
+                    <Edge cubics="!6134 -5344(;6757,-5382 7306,-4837 7361,-4126q6134 -5344Q6601 -5372q6961 -5016Q7320 -4659q7361 -4126);"/>
+                    <Edge cubics="!7361 -4126(;7361,-4126 7920,3173 7920,3173q7361 -4126 7920 3173)7920,3173;"/>
+                    <Edge cubics="!7920 3173(7920,3173;7974,3885 7513,4493 6890,4532q7920 3173Q7961 3707q7659 4105Q7357 4503q6890 4532);"/>
+                    <Edge cubics="!6890 4532(;6890,4532 -6135,5343 -6135,5343q6890 4532 -6135 5343);"/>
+                    <Edge cubics="!-6135 5343(;-6758,5382 -7307,4837 -7362,4125q-6135 5343Q-6602 5372q-6961 5016Q-7321 4659q-7362 4125);"/>
+                    <Edge cubics="!-7362 4125(;-7362,4125 -7921,-3174 -7921,-3174q-7362 4125 -7921 -3174);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.187423706054688" c="0.187423706054688" d="0" tx="-9.05" ty="-105.2"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.0823529411764706"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.72156862745098"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!931 -1791[-1520 -1280 -3744 -555!-3744 -555[-5892 146 -7586 967!-7586 967|-7911 -3183!-7911 -3183[-7948 -3646 -7680 -3991!-7680 -3991[-7412 -4336 -6997 -4362!-6997 -4362|6347 -5173!6347 -5173[6763 -5198 7082 -4889!7082 -4889[7401 -4579
+ 7437 -4116!7437 -4116|7552 -2649!7552 -2649[6040 -2586 4388 -2374!4388 -2374[2686 -2156 931 -1791"/>
+                    <Edge cubics="!-6997 -4362(;-6997,-4362 6347,-5173 6347,-5173q-6997 -4362 6347 -5173);"/>
+                    <Edge cubics="!6347 -5173(;6901,-5207 7389,-4734 7437,-4116q6347 -5173Q6763 -5198q7082 -4889Q7401 -4579q7437 -4116);"/>
+                    <Edge cubics="!7437 -4116(;7437,-4116 7552,-2649 7552,-2649q7437 -4116 7552 -2649);"/>
+                    <Edge cubics="!7552 -2649(7552,-2649;5567,-2567 3306,-2285 931,-1791q7552 -2649Q6040 -2586q4388 -2374Q2686 -2156q931 -1791);"/>
+                    <Edge cubics="!931 -1791(;-2395,-1098 -5370,-107 -7586,967q931 -1791Q-1520 -1280q-3744 -555Q-5892 146q-7586 967);"/>
+                    <Edge cubics="!-7586 967(;-7586,967 -7911,-3183 -7911,-3183q-7586 967 -7911 -3183);"/>
+                    <Edge cubics="!-7911 -3183(;-7960,-3800 -7550,-4328 -6997,-4362q-7911 -3183Q-7948 -3646q-7680 -3991Q-7412 -4336q-6997 -4362);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.32623291015625" c="0.32623291015625" d="0"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#E3DED3" ratio="0.403921568627451"/>
+                        <GradientEntry color="#BEBFC2" ratio="0.796078431372549"/>
+                        <GradientEntry color="#BEBFC2" ratio="0.949019607843137"/>
+                        <GradientEntry color="#E3DED3" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!7361 -4126S2|7920 3173!7920 3173[7961 3707 7659 4105!7659 4105[7357 4503 6890 4532!6890 4532|-6135 5343!-6135 5343[-6602 5372 -6961 5016!-6961 5016[-7321 4659 -7362 4125!-7362 4125|-7921 -3174!-7921 -3174[-7961 -3707 -7660 -4105!-7660
+ -4105[-7358 -4503 -6891 -4532!-6891 -4532|6134 -5344!6134 -5344[6601 -5372 6961 -5016!6961 -5016[7320 -4659 7361 -4126"/>
+                    <Edge cubics="!-7921 -3174(-7921,-3174;-7975,-3885 -7514,-4494 -6891,-4532q-7921 -3174Q-7961 -3707q-7660 -4105Q-7358 -4503q-6891 -4532);"/>
+                    <Edge cubics="!-6891 -4532(-6891,-4532;-6891,-4532 6134,-5344 6134,-5344q-6891 -4532 6134 -5344);"/>
+                    <Edge cubics="!6134 -5344(;6757,-5382 7306,-4837 7361,-4126q6134 -5344Q6601 -5372q6961 -5016Q7320 -4659q7361 -4126);"/>
+                    <Edge cubics="!7361 -4126(;7361,-4126 7920,3173 7920,3173q7361 -4126 7920 3173);"/>
+                    <Edge cubics="!7920 3173(;7974,3885 7513,4493 6890,4532q7920 3173Q7961 3707q7659 4105Q7357 4503q6890 4532);"/>
+                    <Edge cubics="!6890 4532(;6890,4532 -6135,5343 -6135,5343q6890 4532 -6135 5343);"/>
+                    <Edge cubics="!-6135 5343(;-6758,5382 -7307,4837 -7362,4125q-6135 5343Q-6602 5372q-6961 5016Q-7321 4659q-7362 4125);"/>
+                    <Edge cubics="!-7362 4125(;-7362,4125 -7921,-3174 -7921,-3174q-7362 4125 -7921 -3174)-7921,-3174;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

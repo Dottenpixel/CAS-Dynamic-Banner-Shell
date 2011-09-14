@@ -1,0 +1,78 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mc_clicktag" itemID="4d471390-00000a34" lastModified="1296503696">
+  <timeline>
+    <DOMTimeline name="mc_clicktag">
+      <layers>
+        <DOMLayer name="as" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[//clickTag code is HERE
+this.onRelease = function()
+{
+	getURL( _level0.clickTag, "_blank");	
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="border" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" joints="miter">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!190 10|190 190!190 190|10 190!10 190|10 10!10 10|190 10"/>
+                        <Edge cubics="!10 10(;10,10 190,10 190,10q10 10 190 10);"/>
+                        <Edge cubics="!190 10(;190,10 190,190 190,190q190 10 190 190);"/>
+                        <Edge cubics="!190 190(;190,190 10,190 10,190q190 190 10 190);"/>
+                        <Edge cubics="!10 190(;10,190 10,10 10,10q10 190 10 10)10,10;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="invisible body" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!200 0|200 200!200 200|0 200!0 200|0 0!0 0|200 0"/>
+                        <Edge cubics="!0 0(;0,0 200,0 200,0q0 0 200 0);"/>
+                        <Edge cubics="!200 0(;200,0 200,200 200,200q200 0 200 200);"/>
+                        <Edge cubics="!200 200(;200,200 0,200 0,200q200 200 0 200);"/>
+                        <Edge cubics="!0 200(;0,200 0,0 0,0q0 200 0 0)0,0;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

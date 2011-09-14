@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<project name="Charter Dynamic Banners" default="compileAndLaunchSWF" >
+	
+	<!-- user-specific values referenced within build.properties -->
+	<property file="build.properties"/>
+		<property name="FLEX_HOME" value="${FlexSDK}" />
+	    <property name="FLASH_PLAYER" value="${SAPlayer}" />
+	    <property name="DEBUG_FLASH_PLAYER" value="${SAPlayerDebug}" />
+	    <property name="PROJECT" value="${ProjectRoot}" />
+	    <property name="COMPILE_AS_DEBUG" value="false" />
+    
+	<!-- project-specific values -->
+	<property name="SRC" value="${PROJECT}src" />
+    <property name="DEPLOY" value="${PROJECT}deploy" />
+    
+	<!-- flexTasks -->
+	<taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar" />
+
+	<!-- ant-contrib -->
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+		<classpath>
+			<pathelement location="${AntContrib}"/>
+		</classpath>
+	</taskdef>
+	
+	
+	
+	<!-- SET COMPILER OPTIONS	-->
+	<target name="setCompilerOptions" >
+		<if><equals arg1="${COMPILE_AS_DEBUG}" arg2="true" />
+			<!-- MXMLC OPTIONS	-->
+			<then>
+				<property name="_debug" value="true" />
+				<property name="_optimize" value="false" />
+				<property name="_show-actionscript-warnings" value="true" />
+				<property name="_linkReport" value="${PROJECT}/link-report.xml" />
+			</then>
+			<else>
+				<property name="_debug" value="false" />
+				<property name="_optimize" value="true" />
+				<property name="_show-actionscript-warnings" value="false" />
+				<property name="_linkReport" value="" />
+			</else>
+		</if>
+	</target>
+
+	<!-- COMPILE AND LAUNCH DEBUG SWF -->
+	<target name="compileAndLaunchSWF">
+		<echo>Compile and Launch Debug SWF '${SRC}/Main.as'...</echo>
+    	<antcall target="compileSWF" />
+    	<antcall target="launchSWF" />
+	</target>
+
+	<!-- COMPILE SWF  -->
+	<!-- debug="${_debug}" -->
+	<target name="compileSWF" depends="setCompilerOptions">
+		<echo>Compiling Debug SWF '${SRC}/net/creativelift/dynamicbanners/DynBannerShell.as'...</echo>
+		<echo>${FLEX_HOME}</echo>
+		<mxmlc file="${SRC}/net/creativelift/dynamicbanners/DynBannerShell.as"
+			output="${DEPLOY}/swf/DynBannerShell.swf"
+			debug="${_debug}"
+			optimize="${_optimize}" 
+			use-network="false" 
+			incremental="false"
+        	strict="true" 
+			warnings="true"
+			show-actionscript-warnings="${_show-actionscript-warnings}" 
+			actionscript-file-encoding="UTF-8" 
+			keep-generated-actionscript="false"
+			link-report="${_linkReport}"
+			>
+			<!-- Set default script time limit. -->
+			<default-script-limits 
+				max-recursion-depth="1000" 
+				max-execution-time="60" />
+
+        	<!-- Set default size of output SWF file. -->
+        	<default-size width="300" height="250" />
+        	<default-background-color>0xFFFFFF</default-background-color>
+        	<!-- Get default compiler options. -->
+			<load-config filename="${FLEX_HOME}/frameworks/flex-config.xml" />
+        	
+        	<!-- List of path elements that form the roots of ActionScript class hierarchies. -->
+        	<source-path path-element="${FLEX_HOME}/frameworks" />
+        	<source-path path-element="${SRC}" />
+        	
+        	<!-- List of SWC files or directories that contain SWC files. -->
+			<compiler.library-path dir="${PROJECT}" append="true">
+			    <include name="lib" />
+			</compiler.library-path>
+          </mxmlc>
+    </target>
+	
+	<!-- LAUNCH DEBUG SWF -->
+	<target name="launchSWF" description="Launches the SWF into the standalone Debug Flash Player.">   
+		<echo>Launching SWF...</echo>
+		<exec executable="${FLASH_PLAYER}" failonerror="true" spawn="false">
+			<arg line="${PROJECT}deploy/swf/DynBannerShell.swf" />
+		</exec>
+	</target>		
+	
+</project>

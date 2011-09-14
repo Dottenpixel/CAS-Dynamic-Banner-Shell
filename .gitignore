@@ -1,0 +1,12 @@
+.DS_Store
+.gitconfig
+.ssh
+.lesshst
+.bash_history
+.viminfo
+build.properties
+.actionScriptProperties
+.as2_classpath
+.as3_classpath
+.settings/*
+link-report.xml

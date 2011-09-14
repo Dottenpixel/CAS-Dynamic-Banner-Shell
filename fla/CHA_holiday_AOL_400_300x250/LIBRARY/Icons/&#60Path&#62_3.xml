@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Icons/&lt;Path&gt;_3" itemID="4c8fd842-00000357" lastModified="1284495426">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;_3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.0720367431640625" c="0.0720367431640625" d="0" ty="-1.3"/>
+                        </matrix>
+                        <GradientEntry color="#F7B988" ratio="0"/>
+                        <GradientEntry color="#F18F42" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1468 -1059|1468 1060!1468 1060[1468 1128 1419 1177!1419 1177[1369 1226 1300 1226!1300 1226|-1301 1226!-1301 1226[-1370 1226 -1419 1177!-1419 1177[-1468 1128 -1468 1060!-1468 1060|-1468 -1059!-1468 -1059[-1468 -1127 -1419 -1176!-1419
+ -1176[-1370 -1225 -1301 -1225!-1301 -1225|1300 -1225!1300 -1225[1369 -1225 1419 -1176!1419 -1176[1468 -1127 1468 -1059"/>
+                    <Edge cubics="!-1301 -1225(;-1301,-1225 1300,-1225 1300,-1225q-1301 -1225 1300 -1225);"/>
+                    <Edge cubics="!1300 -1225(;1392,-1225 1468,-1150 1468,-1059q1300 -1225Q1369 -1225q1419 -1176Q1468 -1127q1468 -1059);"/>
+                    <Edge cubics="!1468 -1059(;1468,-1059 1468,1060 1468,1060q1468 -1059 1468 1060);"/>
+                    <Edge cubics="!1468 1060(;1468,1151 1392,1226 1300,1226q1468 1060Q1468 1128q1419 1177Q1369 1226q1300 1226);"/>
+                    <Edge cubics="!1300 1226(;1300,1226 -1301,1226 -1301,1226q1300 1226 -1301 1226);"/>
+                    <Edge cubics="!-1301 1226(;-1393,1226 -1468,1151 -1468,1060q-1301 1226Q-1370 1226q-1419 1177Q-1468 1128q-1468 1060);"/>
+                    <Edge cubics="!-1468 1060(-1468,1060;-1468,1060 -1468,-1059 -1468,-1059q-1468 1060 -1468 -1059);"/>
+                    <Edge cubics="!-1468 -1059(;-1468,-1150 -1393,-1225 -1301,-1225q-1468 -1059Q-1468 -1127q-1419 -1176Q-1370 -1225q-1301 -1225);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

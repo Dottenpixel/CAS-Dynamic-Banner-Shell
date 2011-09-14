@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="white bar" itemID="4d34995e-00000048" lastModified="1295650967">
+  <timeline>
+    <DOMTimeline name="white bar">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="1.1300048828125" ty="-48.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-70" y="324.45"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!200 7489|-3000 7489!-3000 7489|-3000 5489!-3000 5489|200 5489!200 5489|200 7489"/>
+                    <Edge cubics="!200 7489(;200,7489 -3000,7489 -3000,7489q200 7489p-3000 7489);"/>
+                    <Edge cubics="!-3000 7489(-3000,7489;-3000,7489 -3000,5489 -3000,5489q-3000 7489 -3000 5489)-3000,5489;"/>
+                    <Edge cubics="!-3000 5489(-3000,5489;-3000,5489 200,5489 200,5489q-3000 5489 200 5489)200,5489;"/>
+                    <Edge cubics="!200 5489(;200,5489 200,7489 200,7489q200 5489 200 7489);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

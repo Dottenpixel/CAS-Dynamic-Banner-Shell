@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BG" itemID="4d34995e-00000045" lastModified="1295643481">
+  <timeline>
+    <DOMTimeline name="BG">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!11560 -700|-3000 -700!-3000 -700|-3000 -2500!-3000 -2500|11560 -2500!11560 -2500|11560 -700"/>
+                    <Edge cubics="!11560 -700(11560,-700;11560,-700 -3000,-700 -3000,-700q11560 -700p-3000 -700);"/>
+                    <Edge cubics="!-3000 -700(;-3000,-700 -3000,-2500 -3000,-2500q-3000 -700 -3000 -2500);"/>
+                    <Edge cubics="!-3000 -2500(;-3000,-2500 11560,-2500 11560,-2500q-3000 -2500 11560 -2500);"/>
+                    <Edge cubics="!11560 -2500(11560,-2500;11560,-2500 11560,-700 11560,-700q11560 -2500 11560 -700);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

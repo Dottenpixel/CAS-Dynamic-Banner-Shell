@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="headline" itemID="4d0bbf68-000001f9" sourceLibraryItemHRef="Symbol 1" lastModified="1293063014" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="headline">
+      <layers>
+        <DOMLayer name="add" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="83.5" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.076416015625" d="1.076416015625" tx="-48.05" ty="-15.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Add</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="-1" lineSpacing="0" size="20" bitmapSize="400" face="Gotham-Medium" fillColor="#373535"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="showtime" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="showtime" name="showtime_mc" centerPoint3DX="1.15" centerPoint3DY="16.5">
+                  <matrix>
+                    <Matrix a="0.54376220703125" d="0.5435791015625" tx="1.1" ty="16.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="price" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="price" name="" centerPoint3DX="-1" centerPoint3DY="37.75">
+                  <matrix>
+                    <Matrix a="1.05819702148438" d="1.057861328125" tx="-1" ty="33.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="4.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

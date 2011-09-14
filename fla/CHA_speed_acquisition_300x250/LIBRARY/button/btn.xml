@@ -1,0 +1,147 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="button/btn" itemID="4baab1ba-000002fa" sourceLibraryItemHRef="Symbol 2" lastModified="1295916799" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="btn" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;-1&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 7" color="#4F80FF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="149" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="149" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="149" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="149" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="124" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="124" duration="26" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#00FF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!-3132 180|-5032 180!-5032 180[-5115 180 -5174 238!-5174 238[-5232 297 -5232 380!-5232 380|-5232 400!-5232 400[-5232 483 -5174 541!-5174 541[-5115 600 -5032 600!-5032 600|-3132 600!-3132 600[-3049 600 -2991 541!-2991 541[-2932 483 -2932
+ 400!-2932 400|-2932 380!-2932 380[-2932 297 -2991 238!-2991 238[-3049 180 -3132 180"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" parentLayerIndex="2" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="124" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="124" duration="22" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.666666666666667"/>
+                  <Point x="0.666666666666667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="button/glare" name="" centerPoint3DX="-449.55" centerPoint3DY="26.95">
+                  <matrix>
+                    <Matrix tx="-694.05" ty="-56.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="244.5" y="83"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.69921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="button/glare" name="" centerPoint3DX="31.45" centerPoint3DY="23.95">
+                  <matrix>
+                    <Matrix tx="-213.05" ty="-59.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="244.5" y="83"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.69921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="type" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="150" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="26.4" width="91.2" height="13" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-275.5" ty="13.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>LEARN MORE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" face="Gotham-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="150" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="button/Symbol 9" name="" centerPoint3DX="-204.1" centerPoint3DY="19.5">
+                  <matrix>
+                    <Matrix tx="-261.6" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.5" y="10.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="6" blurY="6" color="#999999" strength="0.9"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,240 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="button/btn" itemID="4baab1ba-000002fa" sourceLibraryItemHRef="Symbol 2" lastModified="1289953248" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="btn" currentFrame="51" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;-1&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 7" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="51" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" duration="51" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="28" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#00FF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!-3132 180|-5032 180!-5032 180[-5115 180 -5174 238!-5174 238[-5232 297 -5232 380!-5232 380|-5232 400!-5232 400[-5232 483 -5174 541!-5174 541[-5115 600 -5032 600!-5032 600|-3132 600!-3132 600[-3049 600 -2991 541!-2991 541[-2932 483 -2932
+ 400!-2932 400|-2932 380!-2932 380[-2932 297 -2991 238!-2991 238[-3049 180 -3132 180"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" parentLayerIndex="2">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="22" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.666666666666667"/>
+                  <Point x="0.666666666666667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="button/glare" name="" centerPoint3DX="-449.55" centerPoint3DY="26.95">
+                  <matrix>
+                    <Matrix tx="-694.05" ty="-56.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="244.5" y="83"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.69921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="46" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="button/glare" name="" centerPoint3DX="31.45" centerPoint3DY="23.95">
+                  <matrix>
+                    <Matrix tx="-213.05" ty="-59.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="244.5" y="83"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.69921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="10" tweenType="shape" keyMode="17922" acceleration="-100">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="-13.09375, #0.13" startPointB="-21.6875, #0.13" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="-7.15625, #0.13" anchorPointA="#FFFFFE.C7, #0.13" controlPointB="-15.75, #0.13" anchorPointB="#FFFFF6.2F, #0.13" isLine="true"/>
+                    <MorphCurves controlPointA="#FFFFFE.C7, #1.67" anchorPointA="#FFFFFE.C7, #2.BB" controlPointB="#FFFFF6.2F, #1.67" anchorPointB="#FFFFF6.2F, #2.BB" isLine="true"/>
+                    <MorphCurves controlPointA="-5.75, #2.C5" anchorPointA="-10.28125, #2.CF" controlPointB="-14.34375, #2.C5" anchorPointB="-18.875, #2.CF" isLine="true"/>
+                    <MorphCurves controlPointA="-11.6875, #1.71" anchorPointA="-13.09375, #0.13" controlPointB="-20.28125, #1.71" anchorPointB="-21.6875, #0.13" isLine="true"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!-313 19|-3352 19!-3352 19|-2632 719!-2632 719|-313 699!-313 699|-313 19"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="37" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!-2513 19|-5552 19!-5552 19|-4832 719!-4832 719|-2513 699!-2513 699|-2513 19"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="4">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="47" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="26.4" width="91.2" height="13" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-275.5" ty="14.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>LEARN MORE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" face="Gotham-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="10" tweenType="shape" keyMode="17922" acceleration="-100">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#FFFFE0.5B, #0.51" startPointB="#FFFFEA.97, #0.51" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#FFFFE6.4B, #0.51" anchorPointA="#FFFFEC.3A, #0.51" controlPointB="#FFFFF0.87, #0.51" anchorPointB="-9.5390625, #0.51" isLine="true"/>
+                    <MorphCurves controlPointA="#FFFFEA.D2, #1.AF" anchorPointA="#FFFFE9.6A, #3.0D" controlPointB="#FFFFF5.0E, #1.AF" anchorPointB="#FFFFF3.A6, #3.0D" isLine="true"/>
+                    <MorphCurves controlPointA="#FFFFE4.E3, #3.03" anchorPointA="#FFFFE0.5B, #2.F9" controlPointB="#FFFFEF.1F, #3.03" anchorPointB="#FFFFEA.97, #2.F9" isLine="true"/>
+                    <MorphCurves controlPointA="#FFFFE0.5B, #1.A5" anchorPointA="#FFFFE0.5B, #0.51" controlPointB="#FFFFEA.97, #1.A5" anchorPointB="#FFFFEA.97, #0.51" isLine="true"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!-5782 781|-8101 761!-8101 761|-8101 81!-8101 81|-5062 81!-5062 81|-5782 781"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="42" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!-3162 781|-5481 761!-5481 761|-5481 81!-5481 81|-2442 81!-2442 81|-3162 781"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" parentLayerIndex="6">
+          <frames>
+            <DOMFrame index="0" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="button/Symbol 9" name="" centerPoint3DX="-204.1" centerPoint3DY="19.5">
+                  <matrix>
+                    <Matrix tx="-261.6" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.5" y="10.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

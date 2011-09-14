@@ -1,0 +1,58 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="headline" itemID="4d34d97f-000002b4" lastModified="1295916629">
+  <timeline>
+    <DOMTimeline name="headline">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMStaticText width="281.95" height="77" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-146.7" ty="-59.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>MORE </characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>&#xD;</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>FREE SPEED</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText selected="true" width="291.5" height="24" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-144.65" ty="22.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>for our customers</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" letterSpacing="-0.2" lineSpacing="0" size="24" bitmapSize="480" face="Gotham-Bold" fillColor="#559BE3"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,59 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MC Dynamic clickTag-border" itemID="47e29feb-00001870" sourceFlashFilepath="../Brain/_Dev/PA banners 0509/TV_Spot_300x250.fla" sourceLibraryItemHRef="MC Dynamic clickTag-border" sourceLastModified="1238705225" lastModified="1294858350">
+  <timeline>
+    <DOMTimeline name="MC Dynamic clickTag-border">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[	//Move to top left
+this._x = this._y = 0;
+
+	//Draw Background
+this.clear();
+this.lineStyle(2, 0x000000, 100);
+this.beginFill(0x000000, 0);
+this.moveTo(0, 0);
+this.lineTo(Stage.width, 0);
+this.lineTo(Stage.width, Stage.height);
+this.lineTo(0, Stage.height);
+this.lineTo(0, 0);
+this.endFill();
+
+//clickTag code on main timeline
+
+//clickTag code is HERE
+this.onRelease = function ()
+{
+   getURL(_root.clickTag, "_blank");
+};]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#9933CC" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="94.1" height="15.05" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.999191284179688" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Dynamic clickTag</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="0" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

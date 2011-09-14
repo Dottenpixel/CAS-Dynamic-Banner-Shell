@@ -1,0 +1,127 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gift_cards" itemID="4d38da49-00000262" lastModified="1295917101">
+  <timeline>
+    <DOMTimeline name="gift_cards">
+      <layers>
+        <DOMLayer name="dollar sign" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="11.8" height="20" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="7" ty="32.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>$</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="0" size="20" bitmapSize="400" face="Gotham-Book" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="400" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="100" height="40" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="18" ty="28.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>400</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.5" lineSpacing="0" size="40" bitmapSize="800" face="Gotham-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="up to" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="98" height="22" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-10" ty="34.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>up&#xD;to</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="0" size="11" bitmapSize="220" face="Gotham-Light" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="headline/subhead" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMStaticText width="281.95" height="110" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-146.7" ty="-59.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>GET A</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>&#xD;</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>FREE GIFT&#xD;CARD   </characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Black" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" rotation="true" letterSpacing="-1.1" lineSpacing="-11" size="44" bitmapSize="880" face="Gotham-Medium" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="291.5" height="24" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-144.65" ty="66.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>with any digital bundle</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" letterSpacing="-0.5" lineSpacing="0" size="24" face="Gotham-Bold" fillColor="#559BE3"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="button/Symbol 9" itemID="4be1e58c-000023d6" sourceLibraryItemHRef="Symbol 9" lastModified="1289868546">
+  <timeline>
+    <DOMTimeline name="Symbol 9">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-0.000152587890625" b="0.0115203857421875" c="-0.0128173828125" d="-0.0001678466796875" tx="57.5" ty="10.5"/>
+                        </matrix>
+                        <GradientEntry color="#00A4E3" ratio="0.00784313725490196"/>
+                        <GradientEntry color="#005984" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!2241 58S1[2183 0 2100 0!2100 0|200 0!200 0[117 0 58 58!58 58[0 117 0 200!0 200|0 220!0 220[0 303 58 361!58 361[117 420 200 420!200 420|2100 420!2100 420[2183 420 2241 361!2241 361[2300 303 2300 220!2300 220|2300 200!2300 200[2300 117
+ 2241 58"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

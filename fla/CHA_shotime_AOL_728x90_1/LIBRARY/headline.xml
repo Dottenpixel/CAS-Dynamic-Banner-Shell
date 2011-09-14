@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="headline" itemID="4d0bbf68-000001f9" sourceLibraryItemHRef="Symbol 1" lastModified="1293057264" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="headline">
+      <layers>
+        <DOMLayer name="price" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="price" name="" centerPoint3DX="276.2" centerPoint3DY="-0.55">
+                  <matrix>
+                    <Matrix tx="276.05" ty="-4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.15" y="4.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="showtime" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="showtime" name="showtime_mc" selected="true" centerPoint3DX="280" centerPoint3DY="-38.45">
+                  <matrix>
+                    <Matrix tx="280" ty="-38.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="add" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="52" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="96.9" ty="-55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Add</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-1" lineSpacing="4" size="20" bitmapSize="400" face="Gotham-Medium" fillColor="#373535"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

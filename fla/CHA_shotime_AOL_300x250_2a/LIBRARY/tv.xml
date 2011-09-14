@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="tv" itemID="4d0bbf71-000001fb" sourceLibraryItemHRef="Symbol 1" lastModified="1293066575">
+  <timeline>
+    <DOMTimeline name="tv">
+      <layers>
+        <DOMLayer name="copy" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="107" height="46" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="82" ty="-33.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Includes 8,000+ shows &amp; movies &#xD;On Demand!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-1" size="14" bitmapSize="280" face="Gotham-Medium" fillColor="#005984"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tv" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="bitmaps/tv.png">
+                  <matrix>
+                    <Matrix tx="-83" ty="-61.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

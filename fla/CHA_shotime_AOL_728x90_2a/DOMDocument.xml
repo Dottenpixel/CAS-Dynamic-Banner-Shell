@@ -1,0 +1,1067 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="728" height="90" frameRate="20" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" guidesVisible="false" rulerVisible="true" viewAngle3D="69.1369062591893" nextSceneIdentifier="24" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <folders>
+          <DOMFolderItem name="bitmaps" itemID="4d0bbba2-000001ba"/>
+          <DOMFolderItem name="button" itemID="4cddd344-000008ef"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="bitmaps/BG_horz.jpg copy" itemID="4d124b52-0000003e" sourceExternalFilepath="./LIBRARY/bitmaps/BG_horz.jpg" sourceLastImported="1293044498" sourcePlatform="macintosh" externalFileCRC32="4087144048" externalFileSize="4889" quality="50" href="bitmaps/BG_horz.jpg" bitmapDataHRef="M 8 1293044559.dat" frameRight="14560" frameBottom="1800" isJPEG="true"/>
+          <DOMBitmapItem name="bitmaps/cali.jpg" itemID="4d0bb6a5-00000137" sourceExternalFilepath="./LIBRARY/bitmaps/cali.jpg" sourceLastImported="1292612155" sourcePlatform="macintosh" externalFileCRC32="3022931339" externalFileSize="4725" quality="50" href="bitmaps/cali.jpg" bitmapDataHRef="M 5 1292613285.dat" frameRight="2760" frameBottom="1680" isJPEG="true"/>
+          <DOMBitmapItem name="bitmaps/dexter.jpg" itemID="4d0bbb8e-000001b1" sourceExternalFilepath="./LIBRARY/bitmaps/dexter.jpg" sourceLastImported="1292612070" sourcePlatform="macintosh" externalFileCRC32="2374691910" externalFileSize="4448" quality="50" href="bitmaps/dexter.jpg" bitmapDataHRef="M 6 1292614542.dat" frameRight="2760" frameBottom="1680" isJPEG="true"/>
+          <DOMBitmapItem name="bitmaps/tv.png" itemID="4d0bafd4-0000011a" sourceExternalFilepath="./LIBRARY/bitmaps/tv.png" sourceLastImported="1292611537" sourcePlatform="macintosh" externalFileCRC32="4067035749" externalFileSize="3871" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="bitmaps/tv.png" bitmapDataHRef="M 5 1292540037.dat" frameRight="3320" frameBottom="2460"/>
+          <DOMBitmapItem name="bitmaps/weeds.jpg" itemID="4d0bb538-0000011e" sourceExternalFilepath="./LIBRARY/bitmaps/weeds.jpg" sourceLastImported="1292612236" sourcePlatform="macintosh" externalFileCRC32="144991585" externalFileSize="5044" quality="50" href="bitmaps/weeds.jpg" bitmapDataHRef="M 4 1292612920.dat" frameRight="2760" frameBottom="1680" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="add.xml" loadImmediate="false"/>
+          <Include href="button/btn.xml" loadImmediate="false"/>
+          <Include href="button/glare.xml" loadImmediate="false"/>
+          <Include href="button/Symbol 9.xml" loadImmediate="false"/>
+          <Include href="cali.xml" loadImmediate="false"/>
+          <Include href="dexter.xml" loadImmediate="false"/>
+          <Include href="glow.xml" loadImmediate="false"/>
+          <Include href="headline.xml" loadImmediate="false"/>
+          <Include href="logo.xml" loadImmediate="false"/>
+          <Include href="mc_clicktag.xml" loadImmediate="false"/>
+          <Include href="price.xml" loadImmediate="false"/>
+          <Include href="showtime.xml" loadImmediate="false"/>
+          <Include href="special_offer.xml" loadImmediate="false"/>
+          <Include href="tv.xml" loadImmediate="false"/>
+          <Include href="weeds.xml" loadImmediate="false"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="170" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;501&lt;/guideline&gt;&lt;guideline direction="v"&gt;285&lt;/guideline&gt;&lt;/guidelines&gt;'>
+               <layers>
+                    <DOMLayer name="AS" color="#808080" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="170" name=" MOCKING VARIABLES" labelType="comment" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[var data:Object = {};
+data.width = 300;
+data.height = 250;
+data.headline = "SAVE <strong>BIG</strong> WITH CHARTER";
+data.hasVideo = false;
+data.hasData = false;
+data.hasPhone = true;
+data.learnMore = "CLICK HERE";
+
+data.videoBullets = ["All the top-rated TV channels including all local channels.",
+					 "45+ commercial-free digital music channels.",
+					 "6,000+ shows and movies On Demand at no additional cost."];
+
+data.dataBullets = ["Surf the interwebs up to 485X faster with Charter Internet Express 8Mbps!",
+					"Download the twitter to sync up your yahoo with your Google web home.",
+					"testing punctuation !@#$%^&*()_+"];
+
+data.phoneBullets = ["Talk all you want for one low price!",
+					 "Get unlimited local and long distance calling in the U.S., Canada and Puerto Rico.",
+					 "Voicemail and 10 popular calling features all included."];
+
+data.dollars = "104";
+data.cents = "97";
+data.pricePrefix = "Now only";
+data.priceSuffix = "/mo";
+data.term = "for 6 months";]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="170" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="AS" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Security.allowDomain("*");
+Security.allowInsecureDomain("*");
+stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="9" name="start" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="special offer" color="#9933CC" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="6" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" selected="true" centerPoint3DX="275.95" centerPoint3DY="50">
+                                             <matrix>
+                                                  <Matrix a="0.28570556640625" c="-0.228179931640625" d="0.17193603515625" tx="275.95" ty="50"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="120.55" y="-9"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="50" blurY="50" color="#FFFFFF" strength="1.09"/>
+                                             </filters>
+                                             <color>
+                                                  <Color brightness="1"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="176" centerPoint3DY="56">
+                                             <matrix>
+                                                  <Matrix tx="176.05" ty="56"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="122.95" y="-11"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#999999"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="161.85" centerPoint3DY="58">
+                                             <matrix>
+                                                  <Matrix a="1.14274597167969" d="1.142822265625" tx="161.95" ty="58"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="119.15" y="-9.35"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#999999"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="176" centerPoint3DY="56">
+                                             <matrix>
+                                                  <Matrix tx="176.05" ty="56"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="122.95" y="-11"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#999999"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="161.85" centerPoint3DY="58">
+                                             <matrix>
+                                                  <Matrix a="1.14274597167969" d="1.142822265625" tx="161.95" ty="58"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="119.15" y="-9.35"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#999999"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" duration="23" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="176" centerPoint3DY="56">
+                                             <matrix>
+                                                  <Matrix tx="176.05" ty="56"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="122.95" y="-11"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#999999"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="40" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="176" centerPoint3DY="56">
+                                             <matrix>
+                                                  <Matrix tx="176.05" ty="56"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="122.95" y="-11"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#999999"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="43" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="special_offer" name="hey_mc" centerPoint3DX="275.95" centerPoint3DY="50">
+                                             <matrix>
+                                                  <Matrix a="0.28570556640625" c="-0.228179931640625" d="0.17193603515625" tx="275.95" ty="50"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="120.55" y="-9"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="50" blurY="50" color="#FFFFFF" strength="1.09"/>
+                                             </filters>
+                                             <color>
+                                                  <Color brightness="1"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="44" duration="127" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="headline" color="#FF4FFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="44" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="44" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="315" centerPoint3DY="41.95">
+                                             <matrix>
+                                                  <Matrix a="0.2193603515625" c="-0.135040283203125" d="0.172943115234375" tx="315" ty="41.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter/>
+                                             </filters>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="47" duration="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="312" centerPoint3DY="41.95">
+                                             <matrix>
+                                                  <Matrix a="0.956512451171875" d="0.956939697265625" tx="312" ty="41.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="66" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="315" centerPoint3DY="41.95">
+                                             <matrix>
+                                                  <Matrix a="0.956512451171875" d="0.956939697265625" tx="315" ty="41.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="68" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="335" centerPoint3DY="41.95">
+                                             <matrix>
+                                                  <Matrix a="0.956512451171875" d="0.956939697265625" tx="335" ty="41.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="73" duration="98" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="headline" name="" centerPoint3DX="175" centerPoint3DY="41.95">
+                                             <matrix>
+                                                  <Matrix a="0.956512451171875" d="0.956939697265625" tx="175" ty="41.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="dexter" color="#FF800A" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="147" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="147" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="dexter" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.09027099609375" c="-0.0381622314453125" d="0.081817626953125" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#FFFFFF"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="149" duration="22" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="dexter" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" color="#FFFFFF" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="cali" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="112" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="112" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="cali" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.154052734375" c="-0.0651092529296875" d="0.13958740234375" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#FFFFFF"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="114" duration="31" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="cali" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" color="#FFFFFF" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="145" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="cali" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" color="#FFFFFF" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="147" duration="24" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="cali" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.154052734375" c="-0.0651092529296875" d="0.13958740234375" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#FFFFFF"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="weeds" color="#9933CC" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="81" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="81" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="weeds" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.0998687744140625" c="-0.042205810546875" d="0.09051513671875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="20" blurY="20" color="#FFFFFF"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="83" duration="27" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="weeds" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" color="#FFFFFF" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="110" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="weeds" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="0" blurY="0" color="#FFFFFF" strength="0"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="112" duration="59" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="weeds" name="" centerPoint3DX="373.25" centerPoint3DY="44.1">
+                                             <matrix>
+                                                  <Matrix a="0.0998687744140625" c="-0.042205810546875" d="0.09051513671875" tx="372.4" ty="44.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="20" blurY="20" color="#FFFFFF"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="tv" color="#00FF00" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="66" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="66" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="tv" name="" centerPoint3DX="373.25" centerPoint3DY="182.35">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.75" ty="182.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="75" duration="96" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="tv" name="" centerPoint3DX="373.25" centerPoint3DY="48.8">
+                                             <matrix>
+                                                  <Matrix a="0.842529296875" d="0.842529296875" tx="372.75" ty="48.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="glow" color="#4FFFFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="81" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="81" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="45.55">
+                                             <matrix>
+                                                  <Matrix a="0.549484252929688" d="0.549484252929688" tx="372" ty="45.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="83" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="44.75">
+                                             <matrix>
+                                                  <Matrix a="1.03692626953125" d="1.05624389648438" tx="372" ty="45.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#AC0000"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="87" duration="25" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="44.75">
+                                             <matrix>
+                                                  <Matrix a="0.9947509765625" d="1.01347351074219" tx="372" ty="45.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#AC0000"/>
+                                             </filters>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="112" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="45.55">
+                                             <matrix>
+                                                  <Matrix a="0.549484252929688" d="0.549484252929688" tx="372" ty="45.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="114" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="44.75">
+                                             <matrix>
+                                                  <Matrix a="1.03692626953125" d="1.05621337890625" tx="372" ty="45.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#AC0000"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="118" duration="29" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="44.75">
+                                             <matrix>
+                                                  <Matrix a="0.9947509765625" d="1.01347351074219" tx="372" ty="45.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#AC0000"/>
+                                             </filters>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="147" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="45.55">
+                                             <matrix>
+                                                  <Matrix a="0.549484252929688" d="0.549484252929688" tx="372" ty="45.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="149" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="44.75">
+                                             <matrix>
+                                                  <Matrix a="1.03692626953125" d="1.05621337890625" tx="372" ty="45.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#AC0000"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="153" duration="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="glow" name="" centerPoint3DX="372.25" centerPoint3DY="44.75">
+                                             <matrix>
+                                                  <Matrix a="0.9947509765625" d="1.01347351074219" tx="372" ty="45.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="25" blurY="25" color="#AC0000"/>
+                                             </filters>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="CTA" color="#4FFF4F" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="170" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="170" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="button/btn" name="" selected="true" centerPoint3DX="866.95" centerPoint3DY="50">
+                                             <matrix>
+                                                  <Matrix tx="864.7" ty="41.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-4" y="10.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="logo" color="#4FFF4F" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="170" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isDrawingObject="true">
+                                             <matrix>
+                                                  <Matrix a="0.45184326171875" d="2.5714111328125" tx="592.45" ty="-552.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="149.5" y="232.5"/>
+                                             </transformationPoint>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!6000 5000|-20 5000!-20 5000|-20 4300!-20 4300|6000 4300!6000 4300|6000 5000"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMSymbolInstance libraryItemName="logo" name="" centerPoint3DX="657" centerPoint3DY="25">
+                                             <matrix>
+                                                  <Matrix tx="657" ty="25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="170" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="bitmaps/BG_horz.jpg copy"/>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <swatchLists>
+          <swatchList>
+               <swatches>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#003300" hue="80" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006600" hue="80" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009900" hue="80" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC00" hue="80" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330000" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333300" hue="40" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#336600" hue="60" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#339900" hue="67" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#33CC00" hue="70" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#33FF00" hue="72" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#660000" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663300" hue="20" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#666600" hue="40" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#669900" hue="53" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#66CC00" hue="60" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#66FF00" hue="64" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000033" hue="160" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#003333" hue="120" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006633" hue="100" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009933" hue="93" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC33" hue="90" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF33" hue="88" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330033" hue="200" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem color="#336633" hue="80" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339933" hue="80" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC33" hue="80" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF33" hue="80" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660033" hue="220" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663333" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666633" hue="40" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#669933" hue="60" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#66CC33" hue="67" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#66FF33" hue="70" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000066" hue="160" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#003366" hue="140" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#006666" hue="120" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009966" hue="107" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC66" hue="100" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF66" hue="96" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330066" hue="180" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#333366" hue="160" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#336666" hue="120" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339966" hue="100" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC66" hue="93" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF66" hue="90" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660066" hue="200" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663366" hue="200" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem color="#669966" hue="80" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC66" hue="80" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF66" hue="80" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000099" hue="160" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#003399" hue="147" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#006699" hue="133" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#009999" hue="120" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC99" hue="110" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF99" hue="104" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330099" hue="173" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#333399" hue="160" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#336699" hue="140" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#339999" hue="120" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC99" hue="107" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF99" hue="100" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660099" hue="187" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#663399" hue="180" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#666699" hue="160" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#669999" hue="120" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC99" hue="100" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF99" hue="93" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000CC" hue="160" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0033CC" hue="150" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0066CC" hue="140" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0099CC" hue="130" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00CCCC" hue="120" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FFCC" hue="112" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300CC" hue="170" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#3333CC" hue="160" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3366CC" hue="147" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3399CC" hue="133" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33CCCC" hue="120" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FFCC" hue="110" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600CC" hue="180" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#6633CC" hue="173" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#6666CC" hue="160" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#6699CC" hue="140" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66CCCC" hue="120" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FFCC" hue="107" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0033FF" hue="152" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0066FF" hue="144" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0099FF" hue="136" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00CCFF" hue="128" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300FF" hue="168" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3333FF" hue="160" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3366FF" hue="150" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3399FF" hue="140" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33CCFF" hue="130" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33FFFF" hue="120" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600FF" hue="176" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#6633FF" hue="170" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6666FF" hue="160" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#6699FF" hue="147" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66CCFF" hue="133" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66FFFF" hue="120" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990000" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993300" hue="13" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#996600" hue="27" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#999900" hue="40" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#99CC00" hue="50" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#99FF00" hue="56" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC0000" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3300" hue="10" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC6600" hue="20" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC9900" hue="30" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCCC00" hue="40" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCFF00" hue="48" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3300" hue="8" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF6600" hue="16" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF9900" hue="24" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFCC00" hue="32" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990033" hue="227" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993333" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996633" hue="20" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#999933" hue="40" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#99CC33" hue="53" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#99FF33" hue="60" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC0033" hue="230" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3333" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6633" hue="13" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC9933" hue="27" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCCC33" hue="40" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCFF33" hue="50" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF0033" hue="232" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3333" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6633" hue="10" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF9933" hue="20" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFCC33" hue="30" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFFF33" hue="40" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990066" hue="213" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993366" hue="220" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996666" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999966" hue="40" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#99CC66" hue="60" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#99FF66" hue="67" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC0066" hue="220" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3366" hue="227" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6666" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9966" hue="20" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCCC66" hue="40" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCFF66" hue="53" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF0066" hue="224" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3366" hue="230" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6666" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9966" hue="13" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFCC66" hue="27" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFFF66" hue="40" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990099" hue="200" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993399" hue="200" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996699" hue="200" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem color="#99CC99" hue="80" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FF99" hue="80" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC0099" hue="210" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3399" hue="213" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6699" hue="220" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9999" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCC99" hue="40" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCFF99" hue="60" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FF0099" hue="216" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3399" hue="220" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6699" hue="227" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9999" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCC99" hue="20" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFFF99" hue="40" saturation="239" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900CC" hue="190" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#9933CC" hue="187" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#9966CC" hue="180" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#9999CC" hue="160" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99CCCC" hue="120" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FFCC" hue="100" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00CC" hue="200" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC33CC" hue="200" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC66CC" hue="200" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC99CC" hue="200" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem color="#CCFFCC" hue="80" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00CC" hue="208" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33CC" hue="210" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66CC" hue="213" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99CC" hue="220" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCCC" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFCC" hue="40" saturation="239" brightness="216"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900FF" hue="184" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#9933FF" hue="180" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#9966FF" hue="173" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#9999FF" hue="160" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99CCFF" hue="140" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99FFFF" hue="120" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00FF" hue="192" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC33FF" hue="190" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC66FF" hue="187" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC99FF" hue="180" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CCCCFF" hue="160" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#CCFFFF" hue="120" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33FF" hue="200" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66FF" hue="200" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99FF" hue="200" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCFF" hue="200" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem color="#AC0000" saturation="239" brightness="81"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+               </swatches>
+          </swatchList>
+     </swatchLists>
+     <extendedSwatchLists>
+          <swatchList>
+               <swatches>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#00FF00" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#0000FF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#0066FD" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.376470588235294"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.47843137254902"/>
+                         <GradientEntry color="#996600" ratio="0.501960784313725"/>
+                         <GradientEntry color="#FFCC00" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FFFFFF" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#FFFF00" ratio="0.164705882352941"/>
+                         <GradientEntry color="#00FF00" ratio="0.364705882352941"/>
+                         <GradientEntry color="#00FFFF" ratio="0.498039215686275"/>
+                         <GradientEntry color="#0000FF" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FF00FF" ratio="0.831372549019608"/>
+                         <GradientEntry color="#FF0000" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#660000" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#1E5D78" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </LinearGradientSwatchItem>
+               </swatches>
+          </swatchList>
+     </extendedSwatchLists>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="29048" publishTime="1293159186"/>
+          <PublishItem publishSize="27607" publishTime="1293159163"/>
+          <PublishItem publishSize="984" publishTime="1293159137"/>
+          <PublishItem publishSize="985" publishTime="1293159117"/>
+          <PublishItem publishSize="1001" publishTime="1293156210"/>
+          <PublishItem publishSize="27620" publishTime="1293066848"/>
+          <PublishItem publishSize="27617" publishTime="1293066790"/>
+          <PublishItem publishSize="27618" publishTime="1293066763"/>
+          <PublishItem publishSize="27619" publishTime="1293066751"/>
+          <PublishItem publishSize="27619" publishTime="1293066740"/>
+          <PublishItem publishSize="27619" publishTime="1293066710"/>
+          <PublishItem publishSize="27620" publishTime="1293066690"/>
+          <PublishItem publishSize="27627" publishTime="1293066656"/>
+          <PublishItem publishSize="27612" publishTime="1293066612"/>
+          <PublishItem publishSize="25790" publishTime="1293066512"/>
+          <PublishItem publishSize="25784" publishTime="1293066496"/>
+          <PublishItem publishSize="25783" publishTime="1293066487"/>
+          <PublishItem publishSize="25757" publishTime="1293066262"/>
+          <PublishItem publishSize="25835" publishTime="1293066193"/>
+          <PublishItem publishSize="1002" publishTime="1293066190"/>
+     </publishHistory>
+</DOMDocument>

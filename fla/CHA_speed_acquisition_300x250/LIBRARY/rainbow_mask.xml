@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="rainbow_mask" itemID="4d34d72b-00000255" sourceLibraryItemHRef="Symbol 1" lastModified="1295309414">
+  <timeline>
+    <DOMTimeline name="rainbow_mask">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="19.7646942138672" tx="-149.75" ty="-1388.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="149.75" y="70.25"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF33CC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!6018 1473|-27 1473!-27 1473|-27 1337!-27 1337|6018 1337!6018 1337|6018 1473"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
